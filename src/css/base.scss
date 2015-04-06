@@ -3,6 +3,7 @@
 @import './sass/retina-sprite-mixin';
 
 $primary-color: #3080e8;
+$muted-color: #999;
 
 /* ==========================================================================
    Reset Style
@@ -157,6 +158,9 @@ a{
     margin-top: 0;
     border-top: none;
     position: relative;
+    .m-control{
+        margin: 6px 0 5.5px;
+    }
     h1{
         height: 44px;
         font-size: 16px;
@@ -214,10 +218,27 @@ a{
         line-height: 70px;
     }
 }
+.order-list{
+    margin: -4px 0 0;
+    border-top: none;
+    font-size: 13px;
+    li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    p{
+        margin: 4px 0;
+    }
+    .time{
+        color: $muted-color;
+        float: right;
+        line-height: 1.5;
+    }
+}
 .no-more{
     font-size: 12px;
     text-align: center;
-    color: #999;
+    color: $muted-color;
     margin-top: 68px;
 }
 .nav-bar{

@@ -230,6 +230,9 @@ a {
   border-top: none;
   position: relative;
 }
+.top-bar .m-control {
+  margin: 6px 0 5.5px;
+}
 .top-bar h1 {
   height: 44px;
   font-size: 16px;
@@ -283,10 +286,28 @@ a {
   line-height: 70px;
 }
 
+.order-list {
+  margin: -4px 0 0;
+  border-top: none;
+  font-size: 13px;
+}
+.order-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.order-list p {
+  margin: 4px 0;
+}
+.order-list .time {
+  color: #999999;
+  float: right;
+  line-height: 1.5;
+}
+
 .no-more {
   font-size: 12px;
   text-align: center;
-  color: #999;
+  color: #999999;
   margin-top: 68px;
 }
 
