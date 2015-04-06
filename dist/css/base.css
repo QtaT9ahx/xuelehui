@@ -228,7 +228,13 @@ a {
   text-align: center;
   margin-top: 0;
   border-top: none;
-  padding: 6px 0;
+  position: relative;
+}
+.top-bar h1 {
+  height: 44px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #3080e8;
 }
 
 .area-select {
@@ -275,6 +281,13 @@ a {
   vertical-align: middle;
   height: 70px;
   line-height: 70px;
+}
+
+.no-more {
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+  margin-top: 68px;
 }
 
 .nav-bar {
