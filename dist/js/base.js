@@ -1,0 +1,1 @@
+var Page={init:function(){console.log("year!"),Page.controlEvents()},controlEvents:function(){var a=function(a){a.preventDefault(),$(this).addClass("cur").siblings("a").removeClass("cur")};$(".m-control").on("click","a",a)}};$(document).ready(function(){Page.init()});

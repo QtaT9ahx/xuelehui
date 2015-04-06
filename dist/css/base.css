@@ -1,0 +1,333 @@
+/* ==========================================================================
+   Reset Style
+   ========================================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+select,
+textarea,
+input[type="password"],
+input[type="text"] {
+  outline: none;
+}
+
+input[type="button"],
+input[type="submit"] {
+  outline: none;
+}
+
+img {
+  color: transparent;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* ==========================================================================
+   Icons
+   ========================================================================== */
+.icon-booking, .nav-bar .booking i {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 -179px;
+  height: 21px;
+  width: 22px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-booking-a, .nav-bar .booking.cur i {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 -134px;
+  height: 21px;
+  width: 22px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-order, .nav-bar .order i {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 -205px;
+  height: 23px;
+  width: 21px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-order-a, .nav-bar .order.cur i {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 -106px;
+  height: 23px;
+  width: 21px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-my, .nav-bar .my i {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 -78px;
+  height: 23px;
+  width: 20px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-my-a, .nav-bar .my.cur i {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 -50px;
+  height: 23px;
+  width: 20px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-arrow-down, .area-select p::after {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 -233px;
+  height: 8px;
+  width: 14px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-arrow-right, .grade-list a::after {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 -160px;
+  height: 14px;
+  width: 8px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-course {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-position: 0 0;
+  height: 45px;
+  width: 45px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+body {
+  background-color: #efefef;
+  color: #282a2d;
+  font: 14px "HiraginoSansGB-Light","Gotham","Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  color: #282a2d;
+  text-decoration: none;
+}
+
+.m-list {
+  background-color: #fff;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  margin: 4px 0;
+}
+.m-list li {
+  padding: 0 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.m-list li:last-child {
+  border-bottom: none;
+}
+
+.m-control {
+  display: inline-block;
+  font-size: 0;
+}
+.m-control a {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  font-size: 15px;
+  display: inline-block;
+  height: 33px;
+  line-height: 33px;
+  box-sizing: border-box;
+  padding: 0 17px;
+}
+.m-control a:first-child {
+  border-right: none;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.m-control a:last-child {
+  border-left: none;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.m-control a.cur {
+  background-color: #3080e8;
+  color: #fff;
+  border-color: #3080e8;
+}
+
+.top-bar {
+  text-align: center;
+  margin-top: 0;
+  border-top: none;
+  padding: 6px 0;
+}
+
+.area-select {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+}
+.area-select select {
+  position: absolute;
+  left: -1000px;
+}
+.area-select p {
+  line-height: 1;
+  font-size: 13px;
+  position: relative;
+}
+.area-select p::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: -19px;
+}
+
+.grade-list a {
+  display: block;
+  font-size: 14px;
+  height: 70px;
+  line-height: 70px;
+  position: relative;
+}
+.grade-list a::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 27px;
+}
+.grade-list i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.grade-list b {
+  display: inline-block;
+  vertical-align: middle;
+  height: 70px;
+  line-height: 70px;
+}
+
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 49px;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #d7d7d7;
+  text-align: center;
+}
+.nav-bar ul {
+  font-size: 0;
+  height: 100%;
+}
+.nav-bar li {
+  font-size: 12px;
+  display: inline-block;
+  width: 33.3%;
+  height: 100%;
+  vertical-align: top;
+}
+.nav-bar a {
+  line-height: 1;
+  display: block;
+  color: #b6b6b6;
+  height: 100%;
+  font-size: 10px;
+  -webkit-text-size-adjust: none;
+}
+.nav-bar .cur a {
+  color: #3080e8;
+}
+.nav-bar i {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.nav-bar b {
+  line-height: 1;
+  display: block;
+}
+.nav-bar .booking i {
+  margin-top: 9.5px;
+}
+.nav-bar .order i {
+  margin-top: 8px;
+}
+.nav-bar .my i {
+  margin-top: 8px;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */

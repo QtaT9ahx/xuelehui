@@ -1,0 +1,281 @@
+@charset "utf-8";
+@import "compass/css3";
+@import './sass/retina-sprite-mixin';
+
+/* ==========================================================================
+   Reset Style
+   ========================================================================== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+select,
+textarea,
+input[type="password"],
+input[type="text"] {
+    outline: none;
+}
+input[type="button"],
+input[type="submit"] {
+    outline: none;
+}
+img {
+    color: transparent;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+a{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+
+/* ==========================================================================
+   Icons
+   ========================================================================== */
+
+$icon-retina: sprite-map("icons/*.png" , $spacing: 10px );
+
+.icon-booking{
+    @include retina-sprite-background(booking, $icon-retina);
+}
+.icon-booking-a{
+    @include retina-sprite-background(booking-a, $icon-retina);
+}
+.icon-order{
+    @include retina-sprite-background(order, $icon-retina);
+}
+.icon-order-a{
+    @include retina-sprite-background(order-a, $icon-retina);
+}
+.icon-my{
+    @include retina-sprite-background(my, $icon-retina);
+}
+.icon-my-a{
+    @include retina-sprite-background(my-a, $icon-retina);
+}
+.icon-arrow-down{
+    @include retina-sprite-background(arrow-down, $icon-retina);
+}
+.icon-arrow-right{
+    @include retina-sprite-background(arrow-right, $icon-retina);
+}
+.icon-course{
+    @include retina-sprite-background(course, $icon-retina);
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+body {
+    background-color: #efefef;
+    color: #282a2d;
+    font:14px "HiraginoSansGB-Light","Gotham","Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+    line-height:1.5;
+    max-width: 600px;
+    margin: 0 auto;
+}
+a{
+    color: #282a2d;
+    text-decoration: none;
+}
+.m-list{
+    background-color: #fff;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 4px 0;
+    li{
+        // padding: 13px 15px; 
+        padding: 0 15px;
+        border-bottom: 1px solid #e8e8e8;
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+}
+.m-control{
+    display: inline-block;
+    font-size: 0;
+    a{
+        background-color: #fff;
+        border: 1px solid #dbdbdb;
+        font-size: 15px;
+        display: inline-block;
+        height: 33px;
+        line-height: 33px;
+        box-sizing: border-box;
+        // padding: 8px 17px;
+        padding: 0 17px;
+        &:first-child{
+            border-right: none;
+            @include border-left-radius(4px);
+        }
+        &:last-child{
+            border-left: none;
+            @include border-right-radius(4px);
+        }
+        &.cur{
+            background-color: #3080e8;
+            color: #fff;
+            border-color: #3080e8;
+        }
+    }
+}
+.top-bar{
+    text-align: center;
+    margin-top: 0;
+    border-top: none;
+    padding: 6px 0;
+}
+.area-select{
+    position: absolute;
+    left: 15px;
+    top: 17px;
+    select{
+        position: absolute;
+        left: -1000px;
+    }
+    p{
+        line-height: 1;
+        font-size: 13px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            top: 2px;
+            right: -19px;
+            @extend .icon-arrow-down;
+        }
+    }
+}
+.grade-list{
+    li{
+    }
+    a{
+        display: block;
+        font-size: 14px;
+        height: 70px;
+        line-height: 70px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 27px;
+            @extend .icon-arrow-right;
+        }
+    }
+    i{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+    b{
+        display: inline-block;
+        vertical-align: middle;
+        height: 70px;
+        line-height: 70px;
+    }
+}
+.nav-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 49px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #d7d7d7;
+    text-align: center;
+    ul{
+        font-size: 0;
+        height: 100%;
+    }
+    li{
+        font-size: 12px;
+        display: inline-block;
+        width: 33.3%;
+        height: 100%;
+        vertical-align: top;
+    }
+    a{
+        line-height: 1;
+        display: block;
+        color: #b6b6b6;
+        height: 100%;
+        font-size: 10px;
+        -webkit-text-size-adjust: none; 
+    }
+    .cur{
+        a{
+            color: #3080e8;
+        }
+    }
+    i{
+        display: inline-block;
+        margin-bottom: 3px;
+    }
+    b{
+        line-height: 1;
+        display: block;
+    }
+    .booking{
+        i{
+            margin-top: 9.5px;
+            @extend .icon-booking;
+        }
+        &.cur i{
+            @extend .icon-booking-a;
+        }
+    }
+    .order{
+        i{
+            margin-top: 8px;
+            @extend .icon-order;
+        }
+        &.cur i{
+            @extend .icon-order-a;
+        }
+    }
+    .my{
+        i{
+            margin-top: 8px;
+            @extend .icon-my;
+        }
+        &.cur i{
+            @extend .icon-my-a;
+        }
+    }
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
