@@ -68,8 +68,8 @@ a {
    ========================================================================== */
 .icon-booking, .nav-bar .booking i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
-  background-position: 0 -179px;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -229px;
   height: 21px;
   width: 22px;
   -webkit-background-size: 45px auto;
@@ -78,8 +78,8 @@ a {
 
 .icon-booking-a, .nav-bar .booking.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
-  background-position: 0 -134px;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -184px;
   height: 21px;
   width: 22px;
   -webkit-background-size: 45px auto;
@@ -88,8 +88,8 @@ a {
 
 .icon-order, .nav-bar .order i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
-  background-position: 0 -205px;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -255px;
   height: 23px;
   width: 21px;
   -webkit-background-size: 45px auto;
@@ -98,8 +98,8 @@ a {
 
 .icon-order-a, .nav-bar .order.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
-  background-position: 0 -106px;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -156px;
   height: 23px;
   width: 21px;
   -webkit-background-size: 45px auto;
@@ -108,8 +108,8 @@ a {
 
 .icon-my, .nav-bar .my i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
-  background-position: 0 -78px;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -128px;
   height: 23px;
   width: 20px;
   -webkit-background-size: 45px auto;
@@ -118,8 +118,8 @@ a {
 
 .icon-my-a, .nav-bar .my.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
-  background-position: 0 -50px;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -100px;
   height: 23px;
   width: 20px;
   -webkit-background-size: 45px auto;
@@ -128,8 +128,8 @@ a {
 
 .icon-arrow-down, .area-select p::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
-  background-position: 0 -233px;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -283px;
   height: 8px;
   width: 14px;
   -webkit-background-size: 45px auto;
@@ -138,8 +138,8 @@ a {
 
 .icon-arrow-right, .grade-list a::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
-  background-position: 0 -160px;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -210px;
   height: 14px;
   width: 8px;
   -webkit-background-size: 45px auto;
@@ -148,7 +148,17 @@ a {
 
 .icon-course {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s31c115edc5.png');
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-position: 0 -50px;
+  height: 45px;
+  width: 45px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-math {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s2a197a6ff3.png');
   background-position: 0 0;
   height: 45px;
   width: 45px;
@@ -170,6 +180,24 @@ body {
 a {
   color: #282a2d;
   text-decoration: none;
+}
+
+.m-btn {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  padding: 9px 17px;
+  line-height: 1;
+  font-size: 12px;
+  background-color: #3080e8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+.m-btn:hover, .m-btn:active {
+  background-color: #1b5aac;
 }
 
 .m-list {
@@ -233,10 +261,13 @@ a {
 .top-bar .m-control {
   margin: 6px 0 5.5px;
 }
-.top-bar h1 {
+.top-bar h1,
+.top-bar h2 {
   height: 44px;
   font-size: 16px;
   line-height: 46px;
+}
+.top-bar h1 {
   color: #3080e8;
 }
 
@@ -284,6 +315,30 @@ a {
   vertical-align: middle;
   height: 70px;
   line-height: 70px;
+}
+
+.course-list li {
+  position: relative;
+  height: 70px;
+  padding-top: 13px;
+  box-sizing: border-box;
+}
+.course-list i {
+  float: left;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.course-list .name {
+  margin-top: 3px;
+}
+.course-list .price {
+  color: #3080e8;
+  font-size: 12px;
+}
+.course-list .btn-booking {
+  position: absolute;
+  top: 21px;
+  right: 15px;
 }
 
 .order-list {

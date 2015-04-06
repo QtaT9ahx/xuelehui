@@ -3,6 +3,7 @@
 @import './sass/retina-sprite-mixin';
 
 $primary-color: #3080e8;
+$hover-color: #1b5aac;
 $muted-color: #999;
 
 /* ==========================================================================
@@ -95,6 +96,9 @@ $icon-retina: sprite-map("icons/*.png" , $spacing: 10px );
 .icon-course{
     @include retina-sprite-background(course, $icon-retina);
 }
+.icon-math{
+    @include retina-sprite-background(math, $icon-retina);
+}
 
 /* ==========================================================================
    Base
@@ -110,6 +114,20 @@ body {
 a{
     color: #282a2d;
     text-decoration: none;
+}
+.m-btn{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    padding: 9px 17px;
+    line-height: 1;
+    font-size: 12px;
+    background-color: $primary-color;
+    @include border-radius(2px);
+    &:hover,
+    &:active{
+        background-color: $hover-color;
+    }
 }
 .m-list{
     background-color: #fff;
@@ -161,11 +179,16 @@ a{
     .m-control{
         margin: 6px 0 5.5px;
     }
-    h1{
+    h1,
+    h2{
         height: 44px;
         font-size: 16px;
         line-height: 46px;
+    }
+    h1{
         color: $primary-color;
+    }
+    h2{
     }
 }
 .area-select{
@@ -216,6 +239,31 @@ a{
         vertical-align: middle;
         height: 70px;
         line-height: 70px;
+    }
+}
+.course-list{
+    li{
+        position: relative;
+        height: 70px;
+        padding-top: 13px;
+        box-sizing: border-box;
+    }
+    i{
+        float: left;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+    .name{
+        margin-top: 3px;
+    }
+    .price{
+        color: $primary-color;
+        font-size: 12px;
+    }
+    .btn-booking{
+        position: absolute;
+        top: 21px;
+        right: 15px;
     }
 }
 .order-list{
