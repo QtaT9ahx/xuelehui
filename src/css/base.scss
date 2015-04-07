@@ -93,6 +93,12 @@ $icon-retina: sprite-map("icons/*.png" , $spacing: 10px );
 .icon-arrow-right{
     @include retina-sprite-background(arrow-right, $icon-retina);
 }
+.icon-reduce{
+    @include retina-sprite-background(reduce, $icon-retina);
+}
+.icon-increase{
+    @include retina-sprite-background(increase, $icon-retina);
+}
 .icon-course{
     @include retina-sprite-background(course, $icon-retina);
 }
@@ -128,6 +134,15 @@ a{
     &:active{
         background-color: $hover-color;
     }
+}
+.m-btn-large{
+    display: block;
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 15px;
+    @include border-radius(4px);
 }
 .m-list{
     background-color: #fff;
@@ -171,30 +186,46 @@ a{
         }
     }
 }
-.top-bar{
-    text-align: center;
-    margin-top: 0;
-    border-top: none;
-    position: relative;
-    .m-control{
-        margin: 6px 0 5.5px;
+.m-amount{
+    display: inline-block;
+    font-size: 0;
+    a{
+        display: inline-block;
+        font-size: 12px;
+        border: 1px solid #dbdbdb;
+        width: 56px;
+        height: 33px;
+        line-height: 33px;
+        box-sizing: border-box;
+        text-align: center;
+        vertical-align: middle;
+        i{
+            display: inline-block;
+            vertical-align: middle;
+        }
     }
-    h1,
-    h2{
-        height: 44px;
-        font-size: 16px;
-        line-height: 46px;
+    .reduce{
+        border-right: none;
+        @include border-left-radius(4px);
     }
-    h1{
+    .increase{
+        border-left: none;
+        @include border-right-radius(4px);
+    }
+    input{
+        display: inline-block;
+        width: 60px;
+        height: 33px;
+        box-sizing: border-box;
+        font-size: 14px;
+        border: 1px solid #dbdbdb;
+        text-align: center;
+        vertical-align: middle;
         color: $primary-color;
     }
-    h2{
-    }
 }
-.area-select{
-    position: absolute;
-    left: 15px;
-    top: 17px;
+.m-select{
+    position: relative;
     select{
         position: absolute;
         left: -1000px;
@@ -210,6 +241,31 @@ a{
             right: -19px;
             @extend .icon-arrow-down;
         }
+    }
+}
+.top-bar{
+    text-align: center;
+    margin-top: 0;
+    border-top: none;
+    position: relative;
+    .m-select{
+        position: absolute;
+        left: 15px;
+        top: 17px;
+    }
+    .m-control{
+        margin: 6px 0 5.5px;
+    }
+    h1,
+    h2{
+        height: 44px;
+        font-size: 16px;
+        line-height: 46px;
+    }
+    h1{
+        color: $primary-color;
+    }
+    h2{
     }
 }
 .grade-list{
@@ -244,14 +300,16 @@ a{
 .course-list{
     li{
         position: relative;
-        height: 70px;
         padding-top: 13px;
-        box-sizing: border-box;
+        padding-left: 80px;
+        padding-bottom: 14px;
     }
     i{
-        float: left;
-        vertical-align: middle;
-        margin-right: 20px;
+        position: absolute;
+        left: 15px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
     }
     .name{
         margin-top: 3px;
@@ -259,11 +317,69 @@ a{
     .price{
         color: $primary-color;
         font-size: 12px;
+        span{
+            float: right;
+        }
+    }
+    .tip{
+        color: $muted-color;
+        font-size: 12px;
     }
     .btn-booking{
         position: absolute;
         top: 21px;
         right: 15px;
+    }
+}
+.form-list{
+    dl{
+    }
+    dt{
+        height: 44px;
+        line-height: 44px;
+        width: 65px;
+        float: left;
+    }
+    dd{
+        height: 44px;
+        padding-left: 17px;
+        overflow: hidden;
+        position: relative;
+    }
+    .m-amount,
+    .m-control{
+        margin: 5.5px 0 0;
+    }
+    .m-control{
+        a{
+            padding: 0 18px;
+        }
+    }
+    .m-select{
+        .holder{
+            color: $muted-color;
+        }
+        p{
+            height: 44px;
+            line-height: 44px;
+            padding-right: 10px;
+            &::after{
+                right: 0;
+                top: 15px;
+                @extend .icon-arrow-right;
+            }
+        }
+    }
+    .form{
+        input{
+            height: 44px;
+            line-height: 44px;
+            border: none;
+            width: 100%;
+            &::-webkit-input-placeholder {
+               color: $muted-color;
+            }
+        }
     }
 }
 .order-list{
@@ -288,6 +404,12 @@ a{
     text-align: center;
     color: $muted-color;
     margin-top: 68px;
+}
+.warning{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    color: #e60012;
 }
 .nav-bar{
     position: fixed;

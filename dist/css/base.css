@@ -68,7 +68,7 @@ a {
    ========================================================================== */
 .icon-booking, .nav-bar .booking i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -229px;
   height: 21px;
   width: 22px;
@@ -78,7 +78,7 @@ a {
 
 .icon-booking-a, .nav-bar .booking.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -184px;
   height: 21px;
   width: 22px;
@@ -88,7 +88,7 @@ a {
 
 .icon-order, .nav-bar .order i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -255px;
   height: 23px;
   width: 21px;
@@ -98,7 +98,7 @@ a {
 
 .icon-order-a, .nav-bar .order.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -156px;
   height: 23px;
   width: 21px;
@@ -108,7 +108,7 @@ a {
 
 .icon-my, .nav-bar .my i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -128px;
   height: 23px;
   width: 20px;
@@ -118,7 +118,7 @@ a {
 
 .icon-my-a, .nav-bar .my.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -100px;
   height: 23px;
   width: 20px;
@@ -126,9 +126,9 @@ a {
   background-size: 45px auto;
 }
 
-.icon-arrow-down, .area-select p::after {
+.icon-arrow-down, .m-select p::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -283px;
   height: 8px;
   width: 14px;
@@ -136,9 +136,9 @@ a {
   background-size: 45px auto;
 }
 
-.icon-arrow-right, .grade-list a::after {
+.icon-arrow-right, .grade-list a::after, .form-list .m-select p::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -210px;
   height: 14px;
   width: 8px;
@@ -146,9 +146,29 @@ a {
   background-size: 45px auto;
 }
 
+.icon-reduce {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s46ff149877.png');
+  background-position: 0 -312px;
+  height: 1px;
+  width: 11px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
+.icon-increase {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s46ff149877.png');
+  background-position: 0 -296px;
+  height: 11px;
+  width: 11px;
+  -webkit-background-size: 45px auto;
+  background-size: 45px auto;
+}
+
 .icon-course {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 -50px;
   height: 45px;
   width: 45px;
@@ -158,7 +178,7 @@ a {
 
 .icon-math {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s2a197a6ff3.png');
+  background-image: url('../img/generated/icons-s46ff149877.png');
   background-position: 0 0;
   height: 45px;
   width: 45px;
@@ -198,6 +218,20 @@ a {
 }
 .m-btn:hover, .m-btn:active {
   background-color: #1b5aac;
+}
+
+.m-btn-large {
+  display: block;
+  height: 40px;
+  padding: 0;
+  line-height: 40px;
+  font-size: 14px;
+  margin: 15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
 }
 
 .m-list {
@@ -252,11 +286,84 @@ a {
   border-color: #3080e8;
 }
 
+.m-amount {
+  display: inline-block;
+  font-size: 0;
+}
+.m-amount a {
+  display: inline-block;
+  font-size: 12px;
+  border: 1px solid #dbdbdb;
+  width: 56px;
+  height: 33px;
+  line-height: 33px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+}
+.m-amount a i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.m-amount .reduce {
+  border-right: none;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.m-amount .increase {
+  border-left: none;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.m-amount input {
+  display: inline-block;
+  width: 60px;
+  height: 33px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  vertical-align: middle;
+  color: #3080e8;
+}
+
+.m-select {
+  position: relative;
+}
+.m-select select {
+  position: absolute;
+  left: -1000px;
+}
+.m-select p {
+  line-height: 1;
+  font-size: 13px;
+  position: relative;
+}
+.m-select p::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: -19px;
+}
+
 .top-bar {
   text-align: center;
   margin-top: 0;
   border-top: none;
   position: relative;
+}
+.top-bar .m-select {
+  position: absolute;
+  left: 15px;
+  top: 17px;
 }
 .top-bar .m-control {
   margin: 6px 0 5.5px;
@@ -269,27 +376,6 @@ a {
 }
 .top-bar h1 {
   color: #3080e8;
-}
-
-.area-select {
-  position: absolute;
-  left: 15px;
-  top: 17px;
-}
-.area-select select {
-  position: absolute;
-  left: -1000px;
-}
-.area-select p {
-  line-height: 1;
-  font-size: 13px;
-  position: relative;
-}
-.area-select p::after {
-  content: '';
-  position: absolute;
-  top: 2px;
-  right: -19px;
 }
 
 .grade-list a {
@@ -319,14 +405,16 @@ a {
 
 .course-list li {
   position: relative;
-  height: 70px;
   padding-top: 13px;
-  box-sizing: border-box;
+  padding-left: 80px;
+  padding-bottom: 14px;
 }
 .course-list i {
-  float: left;
-  vertical-align: middle;
-  margin-right: 20px;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
 }
 .course-list .name {
   margin-top: 3px;
@@ -335,10 +423,58 @@ a {
   color: #3080e8;
   font-size: 12px;
 }
+.course-list .price span {
+  float: right;
+}
+.course-list .tip {
+  color: #999999;
+  font-size: 12px;
+}
 .course-list .btn-booking {
   position: absolute;
   top: 21px;
   right: 15px;
+}
+
+.form-list dt {
+  height: 44px;
+  line-height: 44px;
+  width: 65px;
+  float: left;
+}
+.form-list dd {
+  height: 44px;
+  padding-left: 17px;
+  overflow: hidden;
+  position: relative;
+}
+.form-list .m-amount,
+.form-list .m-control {
+  margin: 5.5px 0 0;
+}
+.form-list .m-control a {
+  padding: 0 18px;
+}
+.form-list .m-select .holder {
+  color: #999999;
+}
+.form-list .m-select p {
+  height: 44px;
+  line-height: 44px;
+  padding-right: 10px;
+}
+.form-list .m-select p::after {
+  right: 0;
+  top: 15px;
+}
+.form-list .form input {
+  height: 44px;
+  line-height: 44px;
+  border: none;
+  width: 100%;
+}
+.form-list .form input::-webkit-input-placeholder {
+  color: #999999;
 }
 
 .order-list {
@@ -364,6 +500,13 @@ a {
   text-align: center;
   color: #999999;
   margin-top: 68px;
+}
+
+.warning {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 13px;
+  color: #e60012;
 }
 
 .nav-bar {
