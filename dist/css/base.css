@@ -68,122 +68,132 @@ a {
    ========================================================================== */
 .icon-booking, .nav-bar .booking i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -229px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -309px;
   height: 21px;
   width: 22px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-booking-a, .nav-bar .booking.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -184px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -264px;
   height: 21px;
   width: 22px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-order, .nav-bar .order i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -255px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -335px;
   height: 23px;
   width: 21px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-order-a, .nav-bar .order.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -156px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -236px;
   height: 23px;
   width: 21px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-my, .nav-bar .my i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -128px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -208px;
   height: 23px;
   width: 20px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-my-a, .nav-bar .my.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -100px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -180px;
   height: 23px;
   width: 20px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-arrow-down, .m-select p::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -283px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -363px;
   height: 8px;
   width: 14px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-arrow-right, .grade-list a::after, .form-list .m-select p::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -210px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -290px;
   height: 14px;
   width: 8px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-reduce {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -312px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -392px;
   height: 1px;
   width: 11px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-increase {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
-  background-position: 0 -296px;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -376px;
   height: 11px;
   width: 11px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
+}
+
+.icon-avatar {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s450a8c8124.png');
+  background-position: 0 -100px;
+  height: 75px;
+  width: 75px;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-course {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
+  background-image: url('../img/generated/icons-s450a8c8124.png');
   background-position: 0 -50px;
   height: 45px;
   width: 45px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 .icon-math {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s46ff149877.png');
+  background-image: url('../img/generated/icons-s450a8c8124.png');
   background-position: 0 0;
   height: 45px;
   width: 45px;
-  -webkit-background-size: 45px auto;
-  background-size: 45px auto;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
 }
 
 /* ==========================================================================
@@ -455,6 +465,15 @@ a {
 .form-list .m-control a {
   padding: 0 18px;
 }
+.form-list .result {
+  color: #999999;
+  height: 44px;
+  line-height: 44px;
+}
+.form-list .result span {
+  float: right;
+  color: #3080e8;
+}
 .form-list .m-select .holder {
   color: #999999;
 }
@@ -493,6 +512,26 @@ a {
   color: #999999;
   float: right;
   line-height: 1.5;
+}
+
+.confirm-list li {
+  overflow: hidden;
+}
+.confirm-list i {
+  display: inline-block;
+  float: left;
+  margin: 8px 16px 8px 0;
+}
+.confirm-list .info {
+  overflow: hidden;
+  padding: 25px 0 0;
+}
+.confirm-list .info .teacher {
+  margin-top: 3px;
+  color: #3080e8;
+}
+.confirm-list .info .teacher span {
+  margin-left: 7px;
 }
 
 .no-more {
