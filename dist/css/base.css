@@ -68,8 +68,8 @@ a {
    ========================================================================== */
 .icon-booking, .nav-bar .booking i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -309px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -374px;
   height: 21px;
   width: 22px;
   -webkit-background-size: 75px auto;
@@ -78,8 +78,8 @@ a {
 
 .icon-booking-a, .nav-bar .booking.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -264px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -329px;
   height: 21px;
   width: 22px;
   -webkit-background-size: 75px auto;
@@ -88,8 +88,8 @@ a {
 
 .icon-order, .nav-bar .order i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -335px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -400px;
   height: 23px;
   width: 21px;
   -webkit-background-size: 75px auto;
@@ -98,8 +98,8 @@ a {
 
 .icon-order-a, .nav-bar .order.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -236px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -301px;
   height: 23px;
   width: 21px;
   -webkit-background-size: 75px auto;
@@ -108,8 +108,8 @@ a {
 
 .icon-my, .nav-bar .my i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -208px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -273px;
   height: 23px;
   width: 20px;
   -webkit-background-size: 75px auto;
@@ -118,8 +118,8 @@ a {
 
 .icon-my-a, .nav-bar .my.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -180px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -245px;
   height: 23px;
   width: 20px;
   -webkit-background-size: 75px auto;
@@ -128,8 +128,8 @@ a {
 
 .icon-arrow-down, .m-select p::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -363px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -428px;
   height: 8px;
   width: 14px;
   -webkit-background-size: 75px auto;
@@ -138,8 +138,8 @@ a {
 
 .icon-arrow-right, .grade-list a::after, .form-list .m-select p::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -290px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -355px;
   height: 14px;
   width: 8px;
   -webkit-background-size: 75px auto;
@@ -148,8 +148,8 @@ a {
 
 .icon-reduce {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -392px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -457px;
   height: 1px;
   width: 11px;
   -webkit-background-size: 75px auto;
@@ -158,8 +158,8 @@ a {
 
 .icon-increase {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -376px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -441px;
   height: 11px;
   width: 11px;
   -webkit-background-size: 75px auto;
@@ -168,18 +168,28 @@ a {
 
 .icon-avatar {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -100px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -165px;
   height: 75px;
   width: 75px;
   -webkit-background-size: 75px auto;
   background-size: 75px auto;
 }
 
+.icon-success {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 0;
+  height: 60px;
+  width: 60px;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
+}
+
 .icon-course {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 -50px;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -115px;
   height: 45px;
   width: 45px;
   -webkit-background-size: 75px auto;
@@ -188,8 +198,8 @@ a {
 
 .icon-math {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s450a8c8124.png');
-  background-position: 0 0;
+  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-position: 0 -65px;
   height: 45px;
   width: 45px;
   -webkit-background-size: 75px auto;
@@ -614,6 +624,27 @@ a {
 }
 .confirm-list .info .teacher span {
   margin-left: 7px;
+}
+
+.resp {
+  margin-top: 0;
+  border-top: none;
+  padding-top: 33px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.resp i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+.resp p {
+  font-size: 16px;
+}
+.resp .text {
+  color: #999999;
+  margin-top: 20px;
 }
 
 .no-more {

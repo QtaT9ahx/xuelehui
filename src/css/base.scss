@@ -102,6 +102,9 @@ $icon-retina: sprite-map("icons/*.png" , $spacing: 10px );
 .icon-avatar{
     @include retina-sprite-background(avatar, $icon-retina);
 }
+.icon-success{
+    @include retina-sprite-background(success, $icon-retina);
+}
 .icon-course{
     @include retina-sprite-background(course, $icon-retina);
 }
@@ -496,6 +499,26 @@ a{
                 margin-left: 7px;
             }
         }
+    }
+}
+.resp{
+    margin-top: 0;
+    border-top: none;
+    padding-top: 33px;
+    padding-bottom: 20px;
+    text-align: center;
+    i{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .text{
+        color: $muted-color;
+        margin-top: 20px;
     }
 }
 .no-more{
