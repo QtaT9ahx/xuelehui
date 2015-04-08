@@ -126,7 +126,7 @@ a {
   background-size: 75px auto;
 }
 
-.icon-arrow-down, .m-select p::after {
+.icon-arrow-down, .top-bar .m-select p::after {
   background-repeat: no-repeat;
   background-image: url('../img/generated/icons-s757fc1a632.png');
   background-position: 0 -428px;
@@ -220,6 +220,10 @@ body {
 a {
   color: #282a2d;
   text-decoration: none;
+}
+
+.m-hide {
+  display: none;
 }
 
 .m-btn {
@@ -370,8 +374,6 @@ a {
 .m-select p::after {
   content: '';
   position: absolute;
-  top: 2px;
-  right: -19px;
 }
 
 .m-loader {
@@ -466,6 +468,13 @@ a {
   position: absolute;
   left: 15px;
   top: 17px;
+}
+.top-bar .m-select p {
+  padding-right: 19px;
+}
+.top-bar .m-select p::after {
+  top: 2px;
+  right: 0;
 }
 .top-bar .m-control {
   margin: 6px 0 5.5px;

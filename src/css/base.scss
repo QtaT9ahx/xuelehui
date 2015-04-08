@@ -127,6 +127,9 @@ a{
     color: #282a2d;
     text-decoration: none;
 }
+.m-hide{
+    display: none;
+}
 .m-btn{
     display: inline-block;
     text-align: center;
@@ -243,9 +246,6 @@ a{
         &::after{
             content: '';
             position: absolute;
-            top: 2px;
-            right: -19px;
-            @extend .icon-arrow-down;
         }
     }
 }
@@ -324,6 +324,14 @@ a{
         position: absolute;
         left: 15px;
         top: 17px;
+        p{
+            padding-right: 19px;
+            &::after{
+                top: 2px;
+                right: 0;
+                @extend .icon-arrow-down;
+            }
+        }
     }
     .m-control{
         margin: 6px 0 5.5px;
