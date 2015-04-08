@@ -9,6 +9,14 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
 
     grunt.initConfig({
+        connect: {
+            server: {
+                options: {
+                    port: 9001,
+                    base: 'dist'
+                }
+            }
+        },
         clean: {
             dist: {
                 files: [{
@@ -85,6 +93,7 @@ module.exports = function(grunt) {
         }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
@@ -98,6 +107,7 @@ module.exports = function(grunt) {
         'compass',
         'copy:template',
         'copy:img',
+        'connect:server',
         'watch'
     ]);
 
