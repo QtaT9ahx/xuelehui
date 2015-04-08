@@ -53,9 +53,11 @@
                 <dt>上门地址</dt>
                 <dd>
                     <div class="m-select">
-                        <p class="name holder">请选择上门时间</p>
-                        <select name="" id="">
-                            <option value=""></option>
+                        <!-- <p class="name holder">请选择上门时间</p> -->
+                        <select name="time" id="">
+                            <option selected disabled value="">请选择上门时间</option>
+                            <option value="am">上午</option>
+                            <option value="pm">下午</option>
                         </select>            
                     </div>
                 </dd>
@@ -66,9 +68,11 @@
                 <dt>上门城区</dt>
                 <dd>
                     <div class="m-select">
-                        <p class="name holder">海淀区</p>
-                        <select name="" id="">
-                            <option value=""></option>
+                        <!-- <p class="name holder">海淀区</p> -->
+                        <select name="area" id="">
+                            <!-- <option selected disabled value="">海淀区</option> -->
+                            <option value="haidian">海淀区</option>
+                            <option value="chaoyang">朝阳区</option>
                         </select>            
                     </div>
                 </dd>
@@ -109,6 +113,7 @@
     </div>
 
     <script src="../js/lib/zepto.js"></script>
+    <script src="../js/lib/fastclick.js"></script>
     <script src="../js/base.js"></script>
 </body>
 </html>

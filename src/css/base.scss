@@ -222,6 +222,7 @@ a{
         @include border-right-radius(4px);
     }
     input{
+        -webkit-appearance: none;
         display: inline-block;
         width: 60px;
         height: 33px;
@@ -231,23 +232,35 @@ a{
         text-align: center;
         vertical-align: middle;
         color: $primary-color;
+        @include border-radius(0);
     }
 }
 .m-select{
     position: relative;
     select{
-        position: absolute;
-        left: -1000px;
-    }
-    p{
         line-height: 1;
-        font-size: 13px;
-        position: relative;
-        &::after{
-            content: '';
-            position: absolute;
-        }
+        height: 100%;
+        background-color: none;
+        border: none;
+        @include border-radius(0);
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
+    &::after{
+        content: '';
+        position: absolute;
+    }
+    // select{
+    //     position: absolute;
+    //     left: 0;
+    //     line-height: 1;
+    //     z-index: -1;
+    // }
+    // p{
+    //     line-height: 1;
+    //     font-size: 13px;
+    //     position: relative;
+    // }
 }
 .m-loader {
     margin: 0 auto;
@@ -321,16 +334,20 @@ a{
     border-top: none;
     position: relative;
     .m-select{
+        select{
+            padding-right: 19px;
+            background-color: transparent;
+        }
         position: absolute;
         left: 15px;
-        top: 17px;
-        p{
-            padding-right: 19px;
-            &::after{
-                top: 2px;
-                right: 0;
-                @extend .icon-arrow-down;
-            }
+        top: 0;
+        height: 44px;
+        line-height: 44px;
+        font-size: 13px;
+        &::after{
+            top: 20px;
+            right: 0;
+            @extend .icon-arrow-down;
         }
     }
     .m-control{
@@ -445,18 +462,18 @@ a{
         }
     }
     .m-select{
-        .holder{
+        select{
             color: $muted-color;
-        }
-        p{
+            width: 100%;
             height: 44px;
             line-height: 44px;
-            padding-right: 10px;
-            &::after{
-                right: 0;
-                top: 15px;
-                @extend .icon-arrow-right;
-            }
+            margin-right: 19px;
+            background-color: transparent;
+        }
+        &::after{
+            right: 0;
+            top: 15px;
+            @extend .icon-arrow-right;
         }
     }
     .form{

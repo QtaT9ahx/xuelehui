@@ -126,7 +126,7 @@ a {
   background-size: 75px auto;
 }
 
-.icon-arrow-down, .top-bar .m-select p::after {
+.icon-arrow-down, .top-bar .m-select::after {
   background-repeat: no-repeat;
   background-image: url('../img/generated/icons-s757fc1a632.png');
   background-position: 0 -428px;
@@ -136,7 +136,7 @@ a {
   background-size: 75px auto;
 }
 
-.icon-arrow-right, .grade-list a::after, .form-list .m-select p::after {
+.icon-arrow-right, .grade-list a::after, .form-list .m-select::after {
   background-repeat: no-repeat;
   background-image: url('../img/generated/icons-s757fc1a632.png');
   background-position: 0 -355px;
@@ -348,6 +348,7 @@ a {
   border-bottom-right-radius: 4px;
 }
 .m-amount input {
+  -webkit-appearance: none;
   display: inline-block;
   width: 60px;
   height: 33px;
@@ -357,21 +358,30 @@ a {
   text-align: center;
   vertical-align: middle;
   color: #3080e8;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
 }
 
 .m-select {
   position: relative;
 }
 .m-select select {
-  position: absolute;
-  left: -1000px;
-}
-.m-select p {
   line-height: 1;
-  font-size: 13px;
-  position: relative;
+  height: 100%;
+  background-color: none;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-.m-select p::after {
+.m-select::after {
   content: '';
   position: absolute;
 }
@@ -467,13 +477,17 @@ a {
 .top-bar .m-select {
   position: absolute;
   left: 15px;
-  top: 17px;
+  top: 0;
+  height: 44px;
+  line-height: 44px;
+  font-size: 13px;
 }
-.top-bar .m-select p {
+.top-bar .m-select select {
   padding-right: 19px;
+  background-color: transparent;
 }
-.top-bar .m-select p::after {
-  top: 2px;
+.top-bar .m-select::after {
+  top: 20px;
   right: 0;
 }
 .top-bar .m-control {
@@ -575,15 +589,15 @@ a {
   float: right;
   color: #3080e8;
 }
-.form-list .m-select .holder {
+.form-list .m-select select {
   color: #999999;
-}
-.form-list .m-select p {
+  width: 100%;
   height: 44px;
   line-height: 44px;
-  padding-right: 10px;
+  margin-right: 19px;
+  background-color: transparent;
 }
-.form-list .m-select p::after {
+.form-list .m-select::after {
   right: 0;
   top: 15px;
 }

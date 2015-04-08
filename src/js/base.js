@@ -3,7 +3,6 @@ var Page = {
     init: function () {
         console.log('year!');
         Page.controlEvents();
-        Page.selectEvents();
         Page.amountEvents();
     },
     controlEvents: function () {
@@ -30,6 +29,9 @@ var Page = {
         _self.realSelect.on('change', renderItem);
     },
     customNumber: function (selector, context) {
+        if ( $(selector).size() < 1 ) {
+            return;
+        }
         var _self = this;
         _self.reduceButton = $(selector).children('.reduce') || context.reduceButton;
         _self.increaseButton = $(selector).children('.increase') || context.increaseButton;
@@ -63,5 +65,6 @@ var Page = {
 };
 
 $(document).ready(function() {
+    FastClick.attach(document.body);
     Page.init();
 });
