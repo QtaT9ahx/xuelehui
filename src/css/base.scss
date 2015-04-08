@@ -394,6 +394,37 @@ a{
         line-height: 70px;
     }
 }
+.my-list{
+    .item{
+        display: block;
+        font-size: 14px;
+        height: 44px;
+        line-height: 44px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 15px;
+            @extend .icon-arrow-right;
+        }
+    }
+    b{
+        display: inline-block;
+        vertical-align: middle;
+        height: 44px;
+        line-height: 44px;
+    }
+    .m-btn-large{
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+    .text{
+        text-align: center;
+        line-height: 1;
+        margin: -5px 0 15px;
+    }
+}
 .course-list{
     li{
         position: relative;
@@ -524,6 +555,20 @@ a{
                 margin-left: 7px;
             }
         }
+    }
+}
+.my-header{
+    margin-top: 0;
+    border-top: none;
+    li{
+        overflow: hidden;
+    }
+    i{
+        float: left;
+        margin: 8px 16px 8px 0;
+    }
+    .info{
+        padding: 37px 0 0 0;
     }
 }
 .resp{

@@ -136,7 +136,7 @@ a {
   background-size: 75px auto;
 }
 
-.icon-arrow-right, .grade-list a::after, .form-list .m-select::after {
+.icon-arrow-right, .grade-list a::after, .my-list .item::after, .form-list .m-select::after {
   background-repeat: no-repeat;
   background-image: url('../img/generated/icons-s757fc1a632.png');
   background-position: 0 -355px;
@@ -528,6 +528,35 @@ a {
   line-height: 70px;
 }
 
+.my-list .item {
+  display: block;
+  font-size: 14px;
+  height: 44px;
+  line-height: 44px;
+  position: relative;
+}
+.my-list .item::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+.my-list b {
+  display: inline-block;
+  vertical-align: middle;
+  height: 44px;
+  line-height: 44px;
+}
+.my-list .m-btn-large {
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.my-list .text {
+  text-align: center;
+  line-height: 1;
+  margin: -5px 0 15px;
+}
+
 .course-list li {
   position: relative;
   padding-top: 13px;
@@ -647,6 +676,21 @@ a {
 }
 .confirm-list .info .teacher span {
   margin-left: 7px;
+}
+
+.my-header {
+  margin-top: 0;
+  border-top: none;
+}
+.my-header li {
+  overflow: hidden;
+}
+.my-header i {
+  float: left;
+  margin: 8px 16px 8px 0;
+}
+.my-header .info {
+  padding: 37px 0 0 0;
 }
 
 .resp {
