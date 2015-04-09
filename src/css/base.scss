@@ -69,47 +69,27 @@ a{
 
 $icon-retina: sprite-map("icons/*.png" , $spacing: 10px );
 
-.icon-booking{
-    @include retina-sprite-background(booking, $icon-retina);
-}
-.icon-booking-a{
-    @include retina-sprite-background(booking-a, $icon-retina);
-}
-.icon-order{
-    @include retina-sprite-background(order, $icon-retina);
-}
-.icon-order-a{
-    @include retina-sprite-background(order-a, $icon-retina);
-}
-.icon-my{
-    @include retina-sprite-background(my, $icon-retina);
-}
-.icon-my-a{
-    @include retina-sprite-background(my-a, $icon-retina);
-}
-.icon-arrow-down{
-    @include retina-sprite-background(arrow-down, $icon-retina);
-}
-.icon-arrow-right{
-    @include retina-sprite-background(arrow-right, $icon-retina);
-}
-.icon-reduce{
-    @include retina-sprite-background(reduce, $icon-retina);
-}
-.icon-increase{
-    @include retina-sprite-background(increase, $icon-retina);
-}
-.icon-avatar{
-    @include retina-sprite-background(avatar, $icon-retina);
-}
-.icon-success{
-    @include retina-sprite-background(success, $icon-retina);
-}
-.icon-course{
-    @include retina-sprite-background(course, $icon-retina);
-}
-.icon-math{
-    @include retina-sprite-background(math, $icon-retina);
+$icon-name:
+    "booking",
+    "booking-a",
+    "order",
+    "order-a",
+    "my",
+    "my-a",
+    "arrow-down",
+    "arrow-right",
+    "reduce",
+    "increase",
+    "avatar",
+    "success",
+    "course",
+    "math",
+    "help";
+
+@each $name in $icon-name {
+    .icon-#{$name}{
+        @include retina-sprite-background($name, $icon-retina);
+    }
 }
 
 /* ==========================================================================
@@ -697,6 +677,58 @@ a{
             @extend .icon-my-a;
         }
     }
+}
+.teacher-info{
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    img{
+        width: 100%;
+    }
+    ul{
+        padding: 15px 0 15px 60px;
+    }
+    li{
+        margin: 6px 0;
+        span{
+            margin-left: 37px;
+        }
+    }
+}
+.teacher-intro{
+    dl{
+        padding: 10px 0 0 60px;
+        color: $muted-color;
+    }
+}
+.bottom-fix{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 54px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #d7d7d7;
+    text-align: center;
+    box-sizing: border-box;
+    .m-btn-large{
+        margin: 8px 56px;
+    }
+    .help{
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 50px;
+        height: 50px;
+        i{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+
 }
 
 /* ==========================================================================

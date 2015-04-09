@@ -68,8 +68,8 @@ a {
    ========================================================================== */
 .icon-booking, .nav-bar .booking i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
-  background-position: 0 -374px;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -393px;
   height: 21px;
   width: 22px;
   -webkit-background-size: 75px auto;
@@ -78,8 +78,8 @@ a {
 
 .icon-booking-a, .nav-bar .booking.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
-  background-position: 0 -329px;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -348px;
   height: 21px;
   width: 22px;
   -webkit-background-size: 75px auto;
@@ -88,8 +88,8 @@ a {
 
 .icon-order, .nav-bar .order i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
-  background-position: 0 -400px;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -419px;
   height: 23px;
   width: 21px;
   -webkit-background-size: 75px auto;
@@ -98,8 +98,8 @@ a {
 
 .icon-order-a, .nav-bar .order.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
-  background-position: 0 -301px;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -320px;
   height: 23px;
   width: 21px;
   -webkit-background-size: 75px auto;
@@ -108,7 +108,7 @@ a {
 
 .icon-my, .nav-bar .my i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-image: url('../img/generated/icons-s4347947cee.png');
   background-position: 0 -273px;
   height: 23px;
   width: 20px;
@@ -118,7 +118,7 @@ a {
 
 .icon-my-a, .nav-bar .my.cur i {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-image: url('../img/generated/icons-s4347947cee.png');
   background-position: 0 -245px;
   height: 23px;
   width: 20px;
@@ -128,8 +128,8 @@ a {
 
 .icon-arrow-down, .top-bar .m-select::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
-  background-position: 0 -428px;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -447px;
   height: 8px;
   width: 14px;
   -webkit-background-size: 75px auto;
@@ -138,8 +138,8 @@ a {
 
 .icon-arrow-right, .grade-list a::after, .my-list .item::after, .form-list .m-select::after {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
-  background-position: 0 -355px;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -374px;
   height: 14px;
   width: 8px;
   -webkit-background-size: 75px auto;
@@ -148,8 +148,8 @@ a {
 
 .icon-reduce {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
-  background-position: 0 -457px;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -476px;
   height: 1px;
   width: 11px;
   -webkit-background-size: 75px auto;
@@ -158,8 +158,8 @@ a {
 
 .icon-increase {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
-  background-position: 0 -441px;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -460px;
   height: 11px;
   width: 11px;
   -webkit-background-size: 75px auto;
@@ -168,7 +168,7 @@ a {
 
 .icon-avatar {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-image: url('../img/generated/icons-s4347947cee.png');
   background-position: 0 -165px;
   height: 75px;
   width: 75px;
@@ -178,7 +178,7 @@ a {
 
 .icon-success {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-image: url('../img/generated/icons-s4347947cee.png');
   background-position: 0 0;
   height: 60px;
   width: 60px;
@@ -188,7 +188,7 @@ a {
 
 .icon-course {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-image: url('../img/generated/icons-s4347947cee.png');
   background-position: 0 -115px;
   height: 45px;
   width: 45px;
@@ -198,10 +198,20 @@ a {
 
 .icon-math {
   background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s757fc1a632.png');
+  background-image: url('../img/generated/icons-s4347947cee.png');
   background-position: 0 -65px;
   height: 45px;
   width: 45px;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
+}
+
+.icon-help {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -301px;
+  height: 14px;
+  width: 14px;
   -webkit-background-size: 75px auto;
   background-size: 75px auto;
 }
@@ -804,6 +814,58 @@ a {
 }
 .nav-bar .my i {
   margin-top: 8px;
+}
+
+.teacher-info {
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+}
+.teacher-info img {
+  width: 100%;
+}
+.teacher-info ul {
+  padding: 15px 0 15px 60px;
+}
+.teacher-info li {
+  margin: 6px 0;
+}
+.teacher-info li span {
+  margin-left: 37px;
+}
+
+.teacher-intro dl {
+  padding: 10px 0 0 60px;
+  color: #999999;
+}
+
+.bottom-fix {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 54px;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #d7d7d7;
+  text-align: center;
+  box-sizing: border-box;
+}
+.bottom-fix .m-btn-large {
+  margin: 8px 56px;
+}
+.bottom-fix .help {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 50px;
+  height: 50px;
+}
+.bottom-fix .help i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 /* ==========================================================================
