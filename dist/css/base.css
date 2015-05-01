@@ -126,22 +126,22 @@ a {
   background-size: 75px auto;
 }
 
-.icon-arrow-down, .top-bar .m-select::after {
-  background-repeat: no-repeat;
-  background-image: url('../img/generated/icons-s4347947cee.png');
-  background-position: 0 -447px;
-  height: 8px;
-  width: 14px;
-  -webkit-background-size: 75px auto;
-  background-size: 75px auto;
-}
-
 .icon-arrow-right, .grade-list a::after, .my-list .item::after, .form-list .m-select::after {
   background-repeat: no-repeat;
   background-image: url('../img/generated/icons-s4347947cee.png');
   background-position: 0 -374px;
   height: 14px;
   width: 8px;
+  -webkit-background-size: 75px auto;
+  background-size: 75px auto;
+}
+
+.icon-arrow-down, .top-bar .m-select::after, .form-list .m-select-small::after {
+  background-repeat: no-repeat;
+  background-image: url('../img/generated/icons-s4347947cee.png');
+  background-position: 0 -447px;
+  height: 8px;
+  width: 14px;
   -webkit-background-size: 75px auto;
   background-size: 75px auto;
 }
@@ -639,6 +639,22 @@ a {
 .form-list .m-select::after {
   right: 0;
   top: 15px;
+}
+.form-list .m-select-small {
+  width: 45%;
+  float: left;
+}
+.form-list .m-select-small::after {
+  right: 0;
+  top: 18px;
+}
+.form-list .m-select-small:first-child {
+  width: 40%;
+  float: left;
+}
+.form-list .m-select-small:last-child {
+  width: 55%;
+  float: right;
 }
 .form-list .form input {
   height: 44px;

@@ -76,8 +76,8 @@ $icon-name:
     "order-a",
     "my",
     "my-a",
-    "arrow-down",
     "arrow-right",
+    "arrow-down",
     "reduce",
     "increase",
     "avatar",
@@ -485,6 +485,23 @@ a{
             right: 0;
             top: 15px;
             @extend .icon-arrow-right;
+        }
+    }
+    .m-select-small{
+        width: 45%;
+        float: left;
+        &::after{
+            right: 0;
+            top: 18px;
+            @extend .icon-arrow-down;
+        }
+        &:first-child{
+            width: 40%;
+            float: left;
+        }
+        &:last-child{
+            width: 55%;
+            float: right;
         }
     }
     .form{
