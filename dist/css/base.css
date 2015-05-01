@@ -649,6 +649,18 @@ a {
 .form-list .form input::-webkit-input-placeholder {
   color: #999999;
 }
+.form-list .tel input {
+  width: 50%;
+  float: left;
+}
+.form-list .tel .m-btn {
+  float: right;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 48%;
+  margin-top: 7px;
+  box-sizing: border-box;
+}
 
 .order-list {
   margin: -4px 0 0;
